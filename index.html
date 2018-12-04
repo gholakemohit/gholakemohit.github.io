@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mohit Gholake</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel='stylesheet' type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/1.4.0/css/perfect-scrollbar.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+<style media="screen">
+	.wrapper{
+    position: relative;
+		width: 500px;
+		height: 500px;
+		overflow-y: scroll;  
+    display: inline-block;
+    top: 2s5vh;
+	}
+	.first::-webkit-scrollbar{
+		width: 12px;
+	}
+	.first::-webkit-scrollbar-thumb{
+		background: #e91e63;
+		outline: 0;
+		border-radius: 50px;
+		margin-right: 30px;
+		box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+	}
+	.first::-webkit-scrollbar-track{
+		background: grey;
+	}
+
+	.second::-webkit-scrollbar{
+		width: 12px;
+	}
+	.second::-webkit-scrollbar-thumb{
+		background: #e91e63;
+		outline: 0;
+		border-radius: 50px;
+		margin-right: 30px; 
+		box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+	}
+	.second::-webkit-scrollbar-track{
+		background: grey;
+	}
+	.less{
+		width: 0%;
+		margin: 0px;
+		}
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;  /*or use calc(100vh - header_height)*/
+  }
+
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.8/typed.min.js"></script>
+    
+<script>
+    $(document).ready(function(){
+            $('.parallax').parallax();
+        });
+      $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });
+</script>
+<body>
+    <ul id="slide-out" class="sidenav">
+    <li>
+        <div class="user-view" style="color: blue">
+            <div class="background">
+            <img class="responsive-img" src="img/blue1.png" width="300px">
+        
+        </div>
+            <a href="#!user"><img src="img/sunrise.jpg" class="circle responsive-img"></a>
+            <a href="#!name"><span class="black-text name">Mohit Gholake</span></a>
+            <a href="https://mail.google.com/" target="_blank"><span class="black-text email">gholakemohit@gmail.com</span></a>
+        </div>
+    </li>
+    <li><a href="#intro">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#edu">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+        
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Profiles</a></li>
+    <div class="row">
+
+   	<div class="col m3"> 
+    	<a href="https://github.com/gholakemohit"><img src="https://simpleicons.org/icons/github.svg" height="50px" width="50px"></a>
+    </div>
+    <div class="col m3">
+     	<a href="https://www.hackerrank.com/mohya"><img src="https://simpleicons.org/icons/hackerrank.svg" height="55px" width="55px"></a>
+  	</div>
+  	<div class="col m3">
+   		<a href="https://www.linkedin.com/in/mohit-gholake-a20a75160/"><img src="https://simpleicons.org/icons/linkedin.svg" height="50px" width="50px"></a>
+    </div>
+    </div>
+  </ul>
+
+	<div class="row" style="margin: 0px;">      
+		
+        <li class="less col s2"><a href="#" data-target="slide-out" class="sidenav-trigger btn-floating btn-large pulse"><i class="material-icons">menu</i></a></li>
+        
+
+    <div class="section" id="landing">
+            <h5 id="mainText" class="center">My Name Is</h5>
+            <h1 style="color: white;"  class="center">
+               Mohit <b>Gholake</b>
+            </h1>
+            <center>
+                    <div id="typed-strings">
+                        <p>Hi there...</p>
+                        <p>Welcome to the webspace of <em>Mohit Gholake</em>...</p>
+                    </div>
+                <span id="typed"></span>
+            </center>
+        <script>
+            var typed = new Typed('#typed', {
+                stringsElement: '#typed-strings',
+                backSpeed: 40,
+                typeSpeed: 40,
+                 smartBackspace: true 
+            });
+        </script>
+            <h6 id="mainText" class="center">A Developer</h6>
+        </div>
+    
+    <div id="intro" class="col s12">
+            <div class="container">
+                <div class="row">
+                    <div  class="col s12">
+                        <h2 class="center header"> "What i don't know i can learn."</h2>
+                    </div>
+                </div>
+                <div class="row center">
+                    <div class="col s12 m12 l3">
+                        <img class="circle responsive-img" src="img/sunrise.jpg">
+                    </div>
+                    <div class="col s12 m12 offset-l1 l8 ">
+                        <h5 class="center">Mohit Gholake <b>ABOUT ME</b></h5>
+                        <p>
+                            I am currently studying at Walchand College of Engineering persuing a B.Tech in Information Techonolgy.
+                            I love to learn new things, especially technologies. 
+                            I love competitive programming and software development.
+                            <br><br><br>
+                            <i>I believe there are 4 C's necessary for success Confidence, Curiosity ,Communication, Concentration.</i>
+                            <br>
+                            
+                        </p>
+                    </div>
+                </div>
+          </div>
+    </div>
+
+        
+	<div id="projects" class="col s12 ">
+        <center><h3>My Projects</h3></center>
+	<ul>
+        <div class="row">
+		    <div class="col s12 m6">
+		      <div class="card blue-grey darken-1">
+		        <div class="card-content white-text">
+                    <span class="card-title">Mysterious Treasure</span>
+		           	- A treasure hunting role playing game.<br>
+                    - August 2017 - Nov 2017
+                    <br>
+                    <br>
+                    #Unity3D #C#
+		        </div>
+		        <div class="card-action">
+		          <a href="">GitHub Repository</a>
+		        </div>
+		      </div>
+		    </div>
+		</div>
+
+		 <div class="row">
+		    <div class="col s12 m6">
+		      <div class="card blue-grey darken-1">
+		        <div class="card-content white-text">
+		          <span class="card-title">StopStalk</span>
+		          	- An android app for competitive programmers.<br>
+                    - January 2018 - May 2018
+                    <br>
+                    <br>
+                    #AndroidStudio #Firebase 
+		        </div>
+		        <div class="card-action">
+		          <a href="">GitHub Repository</a>
+		        </div>
+		      </div>
+                
+		    </div>
+		 </div>
+        
+		 <div class="row">
+		    <div class="col s12 m6">
+		      <div class="card blue-grey darken-1">
+		        <div class="card-content white-text">
+		          <span class="card-title">ColorGame</span>
+		          	- A color findig game on webpage<br>
+                    -June 2018 - July 2018
+                    <br>
+                    <br>
+                    #html #css #javascript 
+		        </div>
+		        <div class="card-action">
+		          <a href="">GitHub Repository</a>
+		        </div>
+		      </div>
+		    </div>
+		</div>
+
+		  <div class="row">
+		    <div class="col s12 m6">
+		      <div class="card blue-grey darken-1">
+		        <div class="card-content white-text">
+		          <span class="card-title">FactoManager</span>
+		          	- A desktop app for real-time factory management.<br>
+                    - July 2018 - Nov 2018
+                    <br>
+                    <br>
+                    #JavaFX #MySQL
+		        </div>
+		        <div class="card-action">
+		          <a href="">GitHub Repository</a>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+
+		  <div class="row">
+		    <div class="col s12 m6">
+		      <div class="card blue-grey darken-1">
+		        <div class="card-content white-text">
+		          <span class="card-title">My Task List</span>
+		          	-Webpage for to do list<br>
+                    -Nov 2018 - Nov 2018
+                    <br>
+                    <br>
+                    #mongodb #expressjs #angularjs #nodejs #MEAN 
+		        </div>
+		        <div class="card-action">
+		          <a href="">GitHub Repository</a>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+
+		  
+		</ul>
+	</div>
+
+	<div id="edu" class="col s12">
+	<center><h2>My Courses</h2></center>
+        <div class="row">
+            <div class="col m6 s12">
+                <div class="row" style="margin: 10px;"><h5>B.tech Information Techonology</h5></div>
+                <hr>
+                <div class="row" style="margin: 10px;">Aug 2016 - Present</div>
+                <div class="row" style="margin: 10px;">Walchand College of Engineering, Sangli</div>
+                <div class="row" style="margin: 10px;">CPI: 7.06</div>
+            </div>
+             <div class="col m6 s12 education">
+                 <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header" style="color: blueviolet; background-color: black"><i class="material-icons">view_list</i>Courses Completed</div>
+                      <div class="collapsible-body">
+                        <div class="row">
+                            <div class="col m2 s2">3IT202</div>
+                            <div class="col m8 s8"> Data Structures</div>
+                            <div class="col m2 s2"> 9/10</div>
+                        </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT201</div>
+                            <div class="col m8 s8"> Discrete Mathematics</div>
+                            <div class="col m2 s2"> 9/10</div>
+                        </div>
+                          <div class="row">
+                            <div class="col m2 s2">3MA204</div>
+                            <div class="col m8 s8"> Linear Algebra</div>
+                            <div class="col m2 s2"> 8/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT204</div>
+                            <div class="col m8 s8"> Data Communication and Networking</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT203</div>
+                            <div class="col m8 s8"> Microprocessors</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT211</div>
+                            <div class="col m8 s8"> Theory of Computation</div>
+                            <div class="col m2 s2"> 8/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3MA215</div>
+                            <div class="col m8 s8"> Fuzzy Systems and Applications</div>
+                            <div class="col m2 s2"> 8/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT213</div>
+                            <div class="col m8 s8"> Computer Networks</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT212</div>
+                            <div class="col m8 s8"> Computer Architecture</div>
+                            <div class="col m2 s2"> 8/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT253</div>
+                            <div class="col m8 s8"> Programming Lab-1(C++)</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT271</div>
+                            <div class="col m8 s8"> Programing Lab-2(Java)</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT252</div>
+                            <div class="col m8 s8"> Data Structures Lab</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT272</div>
+                            <div class="col m8 s8"> Computer Networks Lab</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT251</div>
+                            <div class="col m8 s8"> Microprocessor Lab</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT241</div>
+                            <div class="col m8 s8"> Mini Project 1</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                          <div class="row">
+                            <div class="col m2 s2">3IT242</div>
+                            <div class="col m8 s8"> Mini Project 2</div>
+                            <div class="col m2 s2"> 9/10</div>
+                          </div>
+                      </div>
+                    </li>
+                  </ul>
+        
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col m6 s12">
+                <div class="row" style="margin: 10px;"><h5>H.S.C Boards</h5></div>
+                <hr>
+                <div class="row" style="margin: 10px;">April 2015 - May 2016</div>
+                <div class="row" style="margin: 10px;">A. C. S. College, Dharangaon.</div>
+                <div class="row" style="margin: 10px;">Scored: 79.23%</div>
+            </div>
+            <div class="col m6 s12 education">
+                <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header" style="color: blueviolet; background-color: black"><i class="material-icons">view_list</i>Courses Completed</div>
+                      <div class="collapsible-body">
+                        <div class="row">
+                            <div class="col m2 s2">-</div>
+                            <div class="col m8 s8"> Mathematics</div>
+                            <div class="col m2 s2"> 82/100</div>
+                        </div>
+                          <div class="row">
+                            <div class="col m2 s2">-</div>
+                            <div class="col m8 s8"> Physics</div>
+                            <div class="col m2 s2"> 77/100</div>
+                        </div>
+                          <div class="row">
+                            <div class="col m2 s2">-</div>
+                            <div class="col m8 s8"> Chemistry</div>
+                            <div class="col m2 s2"> 82/100</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col m6 s12">
+                <div class="row" style="margin: 10px;"><h5>S. S. C. Boards/h5></div>
+                <hr>
+                <div class="row" style="margin: 10px;">April 2013 - May 2014</div>
+                <div class="row" style="margin: 10px;">S. D. Kude Vidyalaya, Dharangaon.</div>
+                <div class="row" style="margin: 10px;">Scored: 95.60%</div>
+            </div>
+             <div class="col m6 s12 education">
+                <ul class="collapsible">
+                    <li>
+                      <div class="collapsible-header" style="color: blueviolet; background-color: black"><i class="material-icons">view_list</i>Courses Completed</div>
+                      <div class="collapsible-body">
+                        <div class="row">
+                            <div class="col m2 s2">-</div>
+                            <div class="col m8 s8"> Mathematics</div>
+                            <div class="col m2 s2"> 95/100</div>
+                        </div>
+                          <div class="row">
+                            <div class="col m2 s2">-</div>
+                            <div class="col m8 s8"> Science</div>
+                            <div class="col m2 s2"> 97/100</div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </div>
+        
+    <div id="skills" class="col s12">
+            <br>
+            <br>
+            <br>
+            <br>
+        <center><h4>My Skills</h4> </center>
+        <hr>
+    	<div class="row">
+            <div class="col s12 m12">
+                <i class="devicon-c-plain" style="font-size: 5em;"></i>
+                <i class="devicon-cplusplus-plain" style="font-size: 5em;"></i>
+                <i class="devicon-html5-plain" style="font-size: 5em;"></i>
+                <i class="devicon-css3-plain" style="font-size: 5em"></i>
+                <i class="devicon-javascript-plain" style="font-size: 5em;"></i>
+                <i class="devicon-nodejs-plain" style="font-size: 5em;"></i>
+                <i class="devicon-express-original" style="font-size: 5em;"></i>
+                <i class="devicon-mongodb-plain-wordmark" style="font-size: 5em;"></i>
+                <i class="devicon-python-plain" style="font-size: 5em;"></i>
+                <i class="devicon-android-plain" style="font-size: 5em;"></i>
+                <i class="devicon-github-plain" style="font-size: 5em;"></i>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    
+</body>
+</html>
